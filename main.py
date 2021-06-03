@@ -50,5 +50,6 @@ def pushbullet_message(title, body):
 
 
 if __name__ == '__main__':
-    add_item_by_upc("644124696437")
+    while True:
+        add_item_by_upc(input("Enter UPC: "))
 
